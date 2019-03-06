@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Helios';
+  src: url('HeliosCondC.eot');
+  src: url('HeliosCondC.eot?#iefix') format('embedded-opentype'),
+       url('HeliosCondC.ttf') format('truetype'),
+       url('HeliosCondC.woff') format('woff'),
+       url('HeliosCondC.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url('HeliosCondC-Bold.eot');
+    src: url('HeliosCondC-Bold.eot?#iefix') format('embedded-opentype'),
+    url('HeliosCondC-Bold.ttf') format('truetype'),
+    url('HeliosCondC-Bold.woff') format('woff'),
+    url('HeliosCondC-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url('HeliosCondC-BoldItalic.eot');
+    src: url('HeliosCondC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('HeliosCondC-BoldItalic.ttf') format('truetype'),
+    url('HeliosCondC-BoldItalic.woff') format('woff'),
+    url('HeliosCondC-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url('HeliosCondC-Italic.eot');
+    src: url('HeliosCondC-Italic.eot?#iefix') format('embedded-opentype'),
+    url('HeliosCondC-Italic.ttf') format('truetype'),
+    url('HeliosCondC-Italic.woff') format('woff'),
+    url('HeliosCondC-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magistral';
+    src: url('MagistralC.eot');
+    src: url('MagistralC.eot?#iefix') format('embedded-opentype'),
+    url('MagistralC.ttf') format('truetype'),
+    url('MagistralC.woff') format('woff'),
+    url('MagistralC.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magistral';
+    src: url('MagistralC-Bold.eot');
+    src: url('MagistralC-Bold.eot?#iefix') format('embedded-opentype'),
+    url('MagistralC-Bold.ttf') format('truetype'),
+    url('MagistralC-Bold.woff') format('woff'),
+    url('MagistralC-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Magistral';
+    src: url('MagistralBlackC.eot');
+    src: url('MagistralBlackC.eot?#iefix') format('embedded-opentype'),
+    url('MagistralBlackC.ttf') format('truetype'),
+    url('MagistralBlackC.woff') format('woff'),
+    url('MagistralBlackC.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.helios {
+    font-family: 'Helios';
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.magistral {
+    font-family: 'Magistral';
+}
